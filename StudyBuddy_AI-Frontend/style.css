@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+}
+
+/* Navbar */
+
+.custom-navbar{
+    background:#ffffff;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.navbar-brand{
+    color:#2563eb !important;
+    font-weight:700;
+    font-size:1.4rem;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background:#ffffff;
+    color:#111827;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero-title{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.highlight{
+    color:#2563eb;
+}
+
+.hero-subtitle{
+    margin-top:15px;
+    font-size:1.1rem;
+    color:#6b7280;
+}
+
+/* Cards */
+
+.custom-card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.custom-card:hover{
+    transform:translateY(-5px);
+}
+
+.form-control{
+    border-radius:12px;
+}
+
+/* Features */
+
+.feature-card{
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.feature-card h5{
+    margin-top:10px;
+    font-weight:600;
+}
+
+/* Dashboard */
+
+.dashboard-header{
+    background:#ffffff;
+    color:#111827;
+    padding:60px 20px;
+    text-align:center;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.dashboard-header h1{
+    font-size:2.5rem;
+    font-weight:700;
+}
+
+.dashboard-header p{
+    color:#6b7280;
+}
+
+.dashboard-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    height:100%;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-10px);
+}
+
+.dashboard-card .icon{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.dashboard-card h4{
+    font-weight:600;
+}
+
+.dashboard-card p{
+    color:#6b7280;
+    min-height:60px;
+}
+
+/* Footer */
+
+.footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    color:white;
+    margin-top:40px;
+}
+.nav-link{
+    color:#374151 !important;
+    font-weight:500;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#2563eb !important;
+}
+
+.navbar{
+    padding:15px 0;
+}

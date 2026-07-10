@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../StudyBuddy_AI-Backend"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "StudyBuddy_AI-Frontend"
+	}
+}
