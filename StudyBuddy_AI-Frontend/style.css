@@ -141,15 +141,80 @@ body{
     margin-top:40px;
 }
 .nav-link{
-    color:#374151 !important;
+    color:#374151;
     font-weight:500;
     margin-left:15px;
 }
 
 .nav-link:hover{
-    color:#2563eb !important;
+    color:#2563eb;
 }
 
 .navbar{
     padding:15px 0;
+}
+.notes-container,
+.planner-container{
+    width:80%;
+    margin:auto;
+    padding:30px;
+}
+
+.notes-container input,
+.planner-container input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.notes-container button,
+.planner-container button{
+    padding:12px 25px;
+    cursor:pointer;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-weight:600;
+}
+
+.notes-container button:hover,
+.planner-container button:hover{
+    background:#1d4ed8;
+}
+
+.notes-box,
+.planner-box{
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.notes-box,
+.planner-box{
+    background:#f9fafb;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+    text-align:left;
+}
+
+.notes-box h5,
+.planner-box h5{
+    color:#2563eb;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+#planOutput li{
+    margin-bottom:10px;
+}
+
+.icon{
+    font-size:3rem;
+    margin-bottom:15px;
 }
